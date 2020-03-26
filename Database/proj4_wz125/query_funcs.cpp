@@ -73,8 +73,8 @@ void print_query1(connection * C, std::string sql) {
     std::cout << c[6].as<int>() << " ";
     std::cout << c[7].as<int>() << " ";
     std::cout << c[8].as<int>() << " ";
-    std::cout << std::setprecision(1) << c[9].as<float>() << " ";
-    std::cout << std::setprecision(1) << c[10].as<float>() << std::endl;
+    std::cout << fixed << std::setprecision(1) << c[9].as<double>() << " ";
+    std::cout << fixed << std::setprecision(1) << c[10].as<double>() << std::endl;
   }
 }
 void query1(connection * C,
