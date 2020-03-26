@@ -22,10 +22,11 @@ def main():
     test()
     
 def test():
+    
     print("TEST QUERY1:\n\n")
-    query_funcs.query1(1,10,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
+    query_funcs.query1(1, 15, 20, 0, 0, 0, 0, 10, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0);
     print("\n")
-    query_funcs.query1(1, 15, 20, 0, 0, 0, 1, 5, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+    query_funcs.query1(0, 10, 40, 0, 0, 0, 2, 10, 10, 1, 0, 5, 0, 0, 0, 0, 0, 0)
     print("TEST QUERY2:\n\n")
     query_funcs.query2("LightBlue")
     print("\n")
